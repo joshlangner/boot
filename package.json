@@ -1,0 +1,10 @@
+{
+  "name": "boot",
+  "description": "Boot",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "underscore": ">= 1.5.2",
+    "moment": "2.3.1"
+  }
+}
