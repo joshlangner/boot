@@ -19,6 +19,6 @@ Key Instructions
 Create your config file inside the configs folder. Then from the command line, boot your config:
 
 ```
-node boot [myapp]
+D:\> node boot [myapp]
 ```
 To terminate the config, simply "CTRL-C" and all processes will terminate.
