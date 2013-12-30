@@ -8,16 +8,17 @@ Boot is a mini application that will boot, reboot, and stop the specified config
 ## Features
 
 * Boot an entire environment with a single command
-* Target specific components to boot or reboot
 * Consolidate console outputs into single terminal windows and / or log files
-* Automatically adjusts for operating system environments (e.g. Windows vs Linux)
 * Designed for node.js, but can work with a variety of other environments (e.g. Java, PHP etc.)
-* Hot-boot a component or environment upon changes (a form of 'auto-deploy')
+* Target specific components to boot or reboot [coming soon]
+* Supports different operating system environments (e.g. Windows vs Linux) [coming soon]
+* Hot-boot a component or environment upon changes (a form of 'auto-deploy') [coming soon]
 
 Key Instructions
 ------------
-Create your config file inside the configs folder. From the command line, you just need to run:
+Create your config file inside the configs folder. Then from the command line, boot your config:
 
 ```
 node boot [myapp]
 ```
+To terminate the config, simply "CTRL-C" and all processes will terminate.
