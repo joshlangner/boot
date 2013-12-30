@@ -1,0 +1,39 @@
+{ "apps" : 
+	[
+		{	"app": "mongodb",
+			"config": {
+				"path": "c:\\mongodb\\bin",
+				"exec": "mongod.exe",
+				"args": ["--dbpath", "c:\\mongodb\\data"],
+				"delay": 5000
+			}
+		},
+		{
+			"app": "myapi",
+			"config": {
+				"path": "d:\\path\\myapi",
+				"exec": "node",
+				"args": ["server"],
+				"delay": 200
+			}
+		},
+		{
+			"app": "myweb",
+			"config": {
+				"path": "d:\\path\\myweb",
+				"exec": "node",
+				"args": ["server"],
+				"delay": 200
+			}
+		},
+		{
+			"app": "mygateway",
+			"config": {
+				"path": "d:\\path\\mygateway",
+				"exec": "node",
+				"args": ["server"],
+				"delay": 200
+			}
+		}
+	]
+}

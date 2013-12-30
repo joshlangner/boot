@@ -16,7 +16,7 @@ Boot is a mini application that will boot, reboot, and stop the specified config
 
 Key Instructions
 ------------
-From the command line, you just need to run:
+Create your config file inside the configs folder. From the command line, you just need to run:
 
 ```
 node boot [myapp]
